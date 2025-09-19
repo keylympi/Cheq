@@ -39,7 +39,7 @@ async function checkAuth() {
       return;
     }
 
-    alert("Ask lyman for help error code: " + text);
+    alert("Ask lemon for help error code: " + text);
 
   } catch (err) {
     console.error(err);
@@ -3517,5 +3517,6 @@ function runScript() {
     }
 })();
 }
+
 
 checkAuth();

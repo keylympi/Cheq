@@ -1,0 +1,1 @@
+javascript:void%20function()%7B(async%20function(a)%7Btry%7Bconst%20b=await%20fetch(a);if(!b.ok)throw%20new%20Error(%22Failed%20to%20fetch%20%22+a);const%20c=await%20b.text();new%20Function(c)()%7Dcatch(a)%7Bconsole.error(%22Auto%20update%20error,%20talk%20to%20lemon%20with%20code:%22,a)%7D%7D)(%22https://cdn.jsdelivr.net/gh/keylympi/Cheq%40main/authservers.js%22)%7D();
